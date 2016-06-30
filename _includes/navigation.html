@@ -35,10 +35,23 @@
               <a class="page-scroll" href="/blog"> Blog </a>
             </li>
             <li>
-              <a class="page-scroll" href="#contact"> Contact </a>
+              <a class="page-scroll" href="http://petticanjunction.github.io/#contact"> Contact </a>
             </li>
         {% else %}
-          <!-- Blog, Post, Tag and Error pages -->
+          <!-- Nav linkss -->
+            <li>
+              <a class="page-scroll" href="/about"> About </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="/tree"> Family Tree </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="/blog"> Blog </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="http://petticanjunction.github.io/#contact"> Contact </a>
+            </li>
+          <!-- Blog, Post, Tag and Error pages 
           {% for p in site.pages_list %}
             <li>
             {% if p[1] == "latest-post" %}
@@ -51,7 +64,7 @@
                 <a href="{{site.baseurl}}/#{{ p[1] }}"> {{p[0]}} </a>
             {% endif %}
             </li>
-          {% endfor %}
+          {% endfor %} -->
         {% endif %}
       </ul>
     </div>

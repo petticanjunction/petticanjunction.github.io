@@ -33,13 +33,13 @@ author: "Nicolas Pettican"
 title: "Pettican Junction"
 description: "Website to display the Pettican family tree."
 keywords: "family, tree, personal, jekyll"
-favicon: "/img/favicon.ico"
+favicon: "/img/leaves.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/leaves-black.ico"
 
 background-img: "../img/intro-bg.jpg"
 
@@ -59,7 +59,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Submit your Pettican family tree so it can be added!"
   - text: "The more people participate the bigger the tree will get!"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/pettijunction.png"
 
 ##############################
 # Color the browser elements #
@@ -167,9 +167,8 @@ social:
 # Sections shown in the index page
 
 pages_list:
-  About: 'about_no'
   Blog: 'latest-post'
-  Family Tree: 'timeline'
+  Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
