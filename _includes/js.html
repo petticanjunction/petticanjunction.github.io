@@ -2,7 +2,11 @@
 <!-- Javascript Start -->
 
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+<!-- jQuery-UI -->
+
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -18,6 +22,17 @@
 function toggleNavCollapse(){50<$(".navbar").offset().top?$(".navbar-fixed-top").addClass("top-nav-collapse"):$(".navbar-fixed-top").removeClass("top-nav-collapse");}
 $(document).ready(toggleNavCollapse);
 $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click",function(b){var a=$(this);$("html, body").stop().animate({scrollTop:$(a.attr("href")).offset().top-50},1500,"easeInOutExpo",function(){a.blur()});b.preventDefault()})});$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
+</script>
+
+<!-- Draggable -->
+
+<style>
+  #draggable { width: 500px; height: 500px; padding: 0.5em; }
+</style>
+<script>
+  $(function() {
+    $( "#draggable" ).draggable();
+  });
 </script>
 
 {% if page.section-type == "index" %}
