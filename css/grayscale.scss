@@ -161,7 +161,6 @@ a {
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $navbar-sm-background-color;
-    font-color: $white;
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -174,12 +173,12 @@ a {
         &:focus,
         &:active {
             outline: none;
-            a {
+            /* a {
 		color: $white;
 		@if $header-text-shadow{
            		text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);  
 		}      
-            }
+            } */
 	}
     }
     .navbar-brand {
