@@ -1,0 +1,42 @@
+
+<!-- Tree Layout Start -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/css/jquery-ui.css">
+  <style>
+  #draggable { width: 500px; height: 500px; padding: 0.5em; }
+  </style>
+  <script>
+  $(function() {
+    $( "#draggable" ).draggable();
+  });
+  </script>
+</head>
+
+    {% include navigation_tree.html %}
+
+<body>
+ 
+<div id="draggable" class="ui-widget-content">
+  <p>This should be draggable...</p>
+</div>
+ 
+ 
+</body>
+</html>
+
+    {% include js.html %}
+
+</html>
+
+<!-- Tree Layout End -->
