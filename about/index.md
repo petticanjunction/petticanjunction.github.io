@@ -7,14 +7,10 @@ sitemap:
   priority: 1.0
 ---
 
-Github's Octocat was designed by Simon Oxley, alongside the white bird Twitter used (before they received a proper logo) as part of a usual routine of cranking out images for iStock. GitHub saw it, and wanted it, presumably under the notion that it can represent how complex code combines to create peculiar things, much like the octopuss... except the CEO of GitHub called it an octocat, and it has been the octocat since <a href="https://www.quora.com/GitHub/What-is-the-story-behind-GitHub%E2%80%99s-octocat-mascot" target="_blank">[via]</a>.
+My dad, Philip J. Pettican, spoke to me one day about a dream of his: having a website called Pettican Junction were people from the Pettican family could submit their part of the family tree. Sort of like [Ancestry.co.uk](http://www.ancestry.co.uk) but more personal and totally free!
 
-<small>
-Octocat is Github's logo and trademark and here is used to illustrate a fictional character (John Smith) that used the *{ Personal }* Jekyll Theme to build his website.
-</small>
+I am updating this website whenever I can, so if anybody in the Pettican family is a web-developer your help would be greatly appreciated :smile:! Just fork the repo down bellow. As for everybody else, show some love by giving the project a :star: bellow!
 
-Support the repo by starring or forking it!
+<iframe src="https://ghbtns.com/github-btn.html?user=petticanjunction&repo=petticanjunction.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=panossakkos&repo=personal-jekyll-theme&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-
-<iframe src="https://ghbtns.com/github-btn.html?user=panossakkos&repo=personal-jekyll-theme&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=petticanjunction&repo=petticanjunction.github.io&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
