@@ -20,11 +20,11 @@
 
 <!-- Draggable -->
 <style>
-  	#draggable { width: 1800px; height: 1200px; padding: 0.5em; background-color: #fff; margin-top: 6%;}
+  	#draggable { width: 1000px; height: 600px; padding: 0.5em; background-color: #fff; }
 </style>
 <script>
 	$(function() {
-		$( "#draggable" ).draggable();
+		$( "#draggable" ).draggable({containment: "#containertree"});
 	});
 </script>
 
